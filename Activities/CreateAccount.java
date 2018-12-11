@@ -117,19 +117,6 @@ public class CreateAccount extends AppCompatActivity {
                                         startActivity(intent);
                                     }
                                 });
-//                                String userid = mAuth.getCurrentUser().getUid();
-//                                DatabaseReference currentUserDb = mDatabaseReference.child(userid);
-//                                currentUserDb.child("firstname").setValue(name);
-//                                currentUserDb.child("lastname").setValue(lname);
-//                                currentUserDb.child("email").setValue(em);
-//                                currentUserDb.child("password").setValue(pw);
-//                                currentUserDb.child("image").setValue("none");
-//
-//                                mProgressDialog.dismiss();
-//
-//                                Intent intent = new Intent(CreateAccount.this, PostListActivity.class);
-//                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                                startActivity(intent);
                             }
                         }
                     });
